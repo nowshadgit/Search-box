@@ -1,0 +1,157 @@
+.search-box{
+    margin-top: 10%;
+}
+
+.search-comp{
+    display: flex;
+    justify-content: center;
+}
+
+.items-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.search-input{
+    padding: 10px;
+    height: 60px;
+    width: 50%;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid black;
+
+}
+.search-input:focus, .search-input:focus + .search-button{
+     outline: none;
+     box-shadow: 0px 0px 5px 0px black;
+}
+
+.search-button{
+    position: relative;
+    border-radius: 0 2px 2px 0;
+    letter-spacing: 1px;
+    margin: 0;
+    height: 60px;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #b2a717;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.item-box {
+    border: 1px solid #d7caca;
+    width: 60.7%;
+    box-shadow: 0px 0px 7px 0px black;
+    border-radius: 3px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid #d7caca;
+    width:100%;
+    cursor: pointer;
+}
+
+.item-nod{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid #d7caca;
+    width:100%;
+}
+
+.item:hover{
+    box-shadow: 0px 0px 4px 0px black;
+}
+
+.clear-text{
+    position: fixed;
+    right: 32%;
+    top:23.4%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.clear-text:hover{
+    text-shadow: 0px 0px 1px black;
+    border: none;   
+}
+
+.item-icon {
+    display: flex;
+    flex-direction: column;
+    width: 7%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.item-name{
+    padding: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: red;
+}
+
+.item-s-name{
+    padding: 2px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.r-item{
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.r-item:hover{
+    box-shadow: 0px 0px 7px 0px black;
+    cursor: pointer;
+}
+
+.recent-items, .popular-items{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.p-item{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p-item:hover{
+    text-shadow: 0px 0px 1px black;
+    border: none;
+    cursor: pointer;
+}
+
+.p-s-item{
+    margin: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+.recent-header{
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 25px;
+    background-color: rgb(244, 238, 238);
+    border-color: rgb(244, 238, 238);
+    font-weight: 700;
+}
